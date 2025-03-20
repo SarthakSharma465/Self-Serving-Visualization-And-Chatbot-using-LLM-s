@@ -1,1 +1,5 @@
 # Self-Serving-Visualization-from-Azure-SQL-Database-using-LLM-s
+In this project, the objective is to create a Streamlit-powered LLM app that answers the queries of the users by allowing them to give the prompt, based on the policy dataset, which is stored in an Azure SQL Database. It is a visualizer-chatbot interface that was developed as a part of the DataSonic project. 
+This Streamlit-based application is basically a query-based visualizer and chatbot designed to facilitate data visualization and interaction through a chatbot interface. It integrates with OpenAI's API for generating SQL queries and Python visualization code and connects to an Azure Synapse SQL database for data retrieval.
+1.	Chatbot - Returns and displays any possible numeric output along with the text explanation of the same based on the prompt given by the user from the database schema.
+2.	Visualizer - Returns and displays the most appropriate visualization or simply based on the prompt given by the user from the database schema.
