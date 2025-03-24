@@ -30,10 +30,10 @@ def api_call(system, user):
 
 
 # ESTABLISHING THE MYSQL DATABASE CONNECTION----------------------------------------------------------
-server = 'data-sonic-trail-server.database.windows.net'
-database = 'data-sonic-trail'
-username = 'sqlroot'
-password ='root@123'
+server = ''
+database = ''
+username = ''
+password =''
 conn = pyodbc.connect('DRIVER={SQL Server};SERVER=' + server + ';DATABASE=' + database + ';UID=' + username + ';PWD=' + password)
 cursor = conn.cursor()
 # ----------------------------------------------------------
