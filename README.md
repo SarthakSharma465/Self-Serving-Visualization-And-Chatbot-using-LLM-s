@@ -165,5 +165,3 @@ if 'connection' in locals() and conn.is_connected():
 This project is part of the **DataSonic initiative** and licensed under [MIT License](LICENSE).
 
 ---
-
-Let me know if you’d like this README saved as a `.md` file or integrated into your GitHub repo structure.
